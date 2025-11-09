@@ -297,7 +297,8 @@ if "code" in query_params and st.session_state.user is None:
 
 # ---------------- LOGIN / REGISTER UI ----------------
 if st.session_state.user:
-    st.switch_page("Pages/Home.py")
+    st.switch_page("Home")
+
 else:
     st.title("VizAI by Ethicallogix")
 
