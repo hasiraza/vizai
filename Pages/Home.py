@@ -12,7 +12,7 @@ st.set_page_config(
 
 # ------------------- User Session Check -------------------
 if not st.session_state.get('user'):
-    st.switch_page("main.py")
+    st.switch_page("main")
 else:
     user = st.session_state.user
 
@@ -57,4 +57,4 @@ else:
             c1, c2, c3 = st.columns([1, 2, 1])
             with c2:
                 if st.button("Get Started", use_container_width=True):
-                    st.switch_page("Pages/Data Cleaning.py")  # ✅ Correct path for Streamlit multipage apps
+                    st.switch_page("Data Cleaning")  # ✅ Correct path for Streamlit multipage apps
