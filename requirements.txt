@@ -1,9 +1,15 @@
-streamlit
-pandas
-numpy
-scikit-learn
-plotly
-google-auth-oauthlib
-requests
-python-dotenv
-google-generativeai
+streamlit           # main app framework
+pandas              # data manipulation
+numpy               # numeric processing
+scikit-learn        # scaling, encoding, ML utilities
+nltk                # NLP (stopwords, lemmatization)
+matplotlib          # optional for plotting (e.g., histograms, word clouds)
+plotly              # optional for interactive charts (if you add them)
+wordcloud           # optional for NLP visualization
+spacy               # optional advanced NLP (not used yet, but good to have)
+textblob            # optional for sentiment analysis
+ftfy                # optional for fixing text encoding in NLP
+python-dotenv       # only needed if you load API keys from .env
+requests            # needed for any API calls (e.g., LinkedIn or others)
+google-auth-oauthlib  # needed only if you connect to Google services (e.g., Sheets)
+google-generativeai    # only if you use Gemini API (you mentioned this earlier)
